@@ -1432,32 +1432,30 @@ left: 0;
   padding: 2%;
   margin-left: 5%;
   bottom: 5%;
+  margin-bottom: 3%;
 }
 
 
 
 .act-left img {
-  min-width: 100px;
-  max-width: 150px;
+  min-height: 200px;
+  max-height: 270px;
   position: absolute;
-  left: 8%;
-  padding: 5px;
-  margin-bottom: 3%;
-  /* padding-left: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 0;
-  margin-right:0; */
+  left: 5%;
+  padding: 0px;
+  margin-bottom: 0;
+  margin-top: -10px;
 }
 
 
 .act-right img {
-  min-width: 120px;
-  max-width: 170px;
+  min-height: 200px;
+  max-height: 270px;
   position: absolute;
-  right: 8%;
-  padding: 5px;
-  margin-bottom: 3%;
+  right: 5%;
+  padding: 0px;
+  margin-bottom: 0;
+  margin-top: -10px;
 }
 
 
@@ -1611,9 +1609,14 @@ iframe {
   max-height: 100%;
 }
 
+.card img {
+  max-height: 200px;
+}
+
 .container-cards {
 padding: 10px;
 text-align: center;
+padding-bottom: 20px;
 }
 
 .container-cards::after, .row::after {
@@ -1653,7 +1656,7 @@ background-color: white;
 .act-text1, .act-text2, .act-text3 {
   background-color: #D1BFEE;
   padding: 2%;
-  margin-bottom: 8%;
+  margin-bottom: 14%;
   text-align: justify;
   text-justify: inter-word;
 }
