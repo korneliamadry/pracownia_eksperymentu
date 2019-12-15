@@ -929,7 +929,9 @@ margin-right: 20px;
     }
 
 #footer a {
-  font-color: white;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
 }
 
 
