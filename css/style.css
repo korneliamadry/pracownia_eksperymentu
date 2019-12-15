@@ -1335,7 +1335,7 @@ margin-right: 20px;
     	color: #7000a8;
     }
     .wrapper span.char8:hover::after {
-    	background: -webkit-linear-gradient(left, #b63d9f 0%, #b63d9f 75%);
+    	background: -webkit-linear-gradient(left, #7000a8 0%, #7000a8 75%);
     	-webkit-background-clip: text;
     	-webkit-text-fill-color: transparent;
     }
@@ -1346,7 +1346,7 @@ margin-right: 20px;
     	color: #4600a8;
     }
     .wrapper span.char9:hover::after {
-    	background: -webkit-linear-gradient(left, #b63d9f 0%, #b63d9f 75%);
+    	background: -webkit-linear-gradient(left, #4600a8 0%, #4600a8 75%);
     	-webkit-background-clip: text;
     	-webkit-text-fill-color: transparent;
     }
@@ -1357,7 +1357,7 @@ margin-right: 20px;
     	color: #0300a8;
     }
     .wrapper span.char10:hover::after {
-    	background: -webkit-linear-gradient(left, #b63d9f 0%, #b63d9f 75%);
+    	background: -webkit-linear-gradient(left, #0300a8 0%, #0300a8 75%);
     	-webkit-background-clip: text;
     	-webkit-text-fill-color: transparent;
     }
@@ -1439,23 +1439,23 @@ left: 0;
 
 .act-left img {
   min-height: 200px;
-  max-height: 270px;
+  max-height: 290px;
   position: absolute;
   left: 5%;
   padding: 0px;
   margin-bottom: 0;
-  margin-top: -10px;
+  margin-top: -12px;
 }
 
 
 .act-right img {
   min-height: 200px;
-  max-height: 270px;
+  max-height: 290px;
   position: absolute;
   right: 5%;
   padding: 0px;
   margin-bottom: 0;
-  margin-top: -10px;
+  margin-top: -12px;
 }
 
 
@@ -1614,7 +1614,7 @@ iframe {
 }
 
 .card img {
-  max-height: 200px;
+  max-height: 220px;
 }
 
 .container-cards {
@@ -1654,7 +1654,7 @@ padding-bottom: 20px;
  */
 
  /* animation for images in the cards */
- 
+
 @-webkit-keyframes flip-diagonal-1-tr {
   0% {
     -webkit-transform: rotate3d(1, 1, 0, 180deg);
