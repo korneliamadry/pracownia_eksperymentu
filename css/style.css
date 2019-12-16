@@ -23,6 +23,9 @@ body:before {
   z-index: -99;
 }
 */
+*{
+  scroll-behavior: smooth;
+}
 
 html {
   box-sizing: border-box;
@@ -929,7 +932,7 @@ opacity: 0.8;
 #footer {
   position: absolute;
   right: 0;
-  left: 0
+  left: 0;
   bottom: 0;
   padding: 2px;
   width: 100%;
@@ -1809,7 +1812,8 @@ body {
 }
 
 .body {
-  font-size: 80%;}
+  font-size: 80%;
+}
 
 .menu a {
   display: flex;
@@ -1835,7 +1839,7 @@ body {
 
   .act-left img, .act-right img {
     display: none;
-
+  }
 
   .menudesktop {
     display: none;
