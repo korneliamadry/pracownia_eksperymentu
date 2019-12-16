@@ -242,6 +242,168 @@ a {
 
 
 
+
+.button {
+  outline: 0;
+  display: inline-block;
+  padding: 15px;
+  color: white;
+  background-color: #f15a29;
+  border-style: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 180px;
+
+}
+
+.button:hover {
+  background-color: #e0005b;
+}
+
+
+
+/*
+animation for buttons. CSShake Library.
+! * * * * * * * * * * * * * * * * * * * *\
+  CSShake :: shake-slow
+  v1.5.0
+  CSS classes to move your DOM
+  (c) 2015 @elrumordelaluz
+  http://elrumordelaluz.github.io/csshake/
+  Licensed under MIT
+\* * * * * * * * * * * * * * * * * * * * */
+
+.shake-slow {
+
+  transform-origin: center center; }
+
+.shake-freeze,
+.shake-constant.shake-constant--hover:hover,
+.shake-trigger:hover .shake-constant.shake-constant--hover {
+  animation-play-state: paused; }
+
+.shake-freeze:hover,
+.shake-trigger:hover .shake-freeze, .shake-slow:hover,
+.shake-trigger:hover .shake-slow {
+  animation-play-state: running; }
+
+@keyframes shake-slow {
+  2% {
+    transform: translate(2px, 1px) rotate(-0.5deg); }
+  4% {
+    transform: translate(-5px, -9px) rotate(-2.5deg); }
+  6% {
+    transform: translate(5px, 3px) rotate(2.5deg); }
+  8% {
+    transform: translate(5px, 4px) rotate(1.5deg); }
+  10% {
+    transform: translate(-4px, -8px) rotate(-0.5deg); }
+  12% {
+    transform: translate(-2px, -9px) rotate(1.5deg); }
+  14% {
+    transform: translate(0px, 6px) rotate(3.5deg); }
+  16% {
+    transform: translate(8px, 2px) rotate(2.5deg); }
+  18% {
+    transform: translate(-4px, -1px) rotate(1.5deg); }
+  20% {
+    transform: translate(10px, 2px) rotate(-2.5deg); }
+  22% {
+    transform: translate(-2px, -4px) rotate(1.5deg); }
+  24% {
+    transform: translate(-8px, 5px) rotate(-0.5deg); }
+  26% {
+    transform: translate(-3px, -5px) rotate(3.5deg); }
+  28% {
+    transform: translate(6px, 2px) rotate(2.5deg); }
+  30% {
+    transform: translate(-5px, -2px) rotate(2.5deg); }
+  32% {
+    transform: translate(5px, -6px) rotate(-2.5deg); }
+  34% {
+    transform: translate(5px, -7px) rotate(-1.5deg); }
+  36% {
+    transform: translate(3px, -9px) rotate(0.5deg); }
+  38% {
+    transform: translate(6px, -2px) rotate(-0.5deg); }
+  40% {
+    transform: translate(-4px, -2px) rotate(0.5deg); }
+  42% {
+    transform: translate(7px, -8px) rotate(1.5deg); }
+  44% {
+    transform: translate(-4px, 10px) rotate(-1.5deg); }
+  46% {
+    transform: translate(-3px, 8px) rotate(-1.5deg); }
+  48% {
+    transform: translate(3px, 6px) rotate(-0.5deg); }
+  50% {
+    transform: translate(4px, -1px) rotate(-2.5deg); }
+  52% {
+    transform: translate(1px, 5px) rotate(-0.5deg); }
+  54% {
+    transform: translate(-3px, 7px) rotate(-2.5deg); }
+  56% {
+    transform: translate(3px, 3px) rotate(-2.5deg); }
+  58% {
+    transform: translate(-8px, -5px) rotate(-1.5deg); }
+  60% {
+    transform: translate(1px, -9px) rotate(3.5deg); }
+  62% {
+    transform: translate(0px, -3px) rotate(-0.5deg); }
+  64% {
+    transform: translate(4px, 2px) rotate(2.5deg); }
+  66% {
+    transform: translate(4px, 10px) rotate(1.5deg); }
+  68% {
+    transform: translate(1px, 2px) rotate(-2.5deg); }
+  70% {
+    transform: translate(-9px, 10px) rotate(0.5deg); }
+  72% {
+    transform: translate(-5px, -8px) rotate(0.5deg); }
+  74% {
+    transform: translate(-3px, -8px) rotate(3.5deg); }
+  76% {
+    transform: translate(-1px, 8px) rotate(3.5deg); }
+  78% {
+    transform: translate(-5px, -4px) rotate(0.5deg); }
+  80% {
+    transform: translate(-6px, 1px) rotate(1.5deg); }
+  82% {
+    transform: translate(-5px, -7px) rotate(1.5deg); }
+  84% {
+    transform: translate(1px, -6px) rotate(-0.5deg); }
+  86% {
+    transform: translate(-8px, -4px) rotate(3.5deg); }
+  88% {
+    transform: translate(-6px, 7px) rotate(-1.5deg); }
+  90% {
+    transform: translate(9px, 6px) rotate(-2.5deg); }
+  92% {
+    transform: translate(9px, -8px) rotate(3.5deg); }
+  94% {
+    transform: translate(3px, 3px) rotate(2.5deg); }
+  96% {
+    transform: translate(-6px, -7px) rotate(2.5deg); }
+  98% {
+    transform: translate(5px, -2px) rotate(-0.5deg); }
+  0%, 100% {
+    transform: translate(0, 0) rotate(0); } }
+
+.shake-slow:hover,
+.shake-trigger:hover .shake-slow, .shake-slow.shake-freeze, .shake-slow.shake-constant {
+  animation-name: shake-slow;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; }
+
+
+
+
+
+/* the end of buttons animation */
+
+
+
 /*elements on the home page. Kornelia */
 
 .welcometext {
@@ -375,6 +537,9 @@ padding: 0px;
   left: 95%;
   max-width: 30px;
 }
+
+
+
 
 
 
@@ -1073,6 +1238,10 @@ customized by Kornelia -- */
 
 
     /* interactive letters in title of about and activities page
+    Customized by Kornelia and Claudia
+    Copyright (c) 2019 by agathaco (https://codepen.io/agathaco/pen/jmZKNM)
+    https://codepen.io/agathaco/pen/jmZKNM
+    also:
     https://tympanus.net/codrops/2013/11/14/animated-opening-type/*/
 
     .wrapper {
@@ -1273,51 +1442,7 @@ customized by Kornelia -- */
 }
 
 
-
-
-
-
-.cards-activities, .cards-activities::before, .cards-activities::after {
-  box-sizing: border-box;
-  padding: 2%;
-  margin-left: 5%;
-  bottom: 5%;
-  margin-bottom: 3%;
-}
-
-
-
-.act-left img {
-  min-height: 200px;
-  max-height: 290px;
-  position: absolute;
-  left: 5%;
-  padding: 0px;
-  margin-bottom: 0;
-  margin-top: -12px;
-}
-
-
-.act-right img {
-  min-height: 200px;
-  max-height: 290px;
-  position: absolute;
-  right: 5%;
-  padding: 0px;
-  margin-bottom: 0;
-  margin-top: -12px;
-}
-
-
-
-.column {
-  float: left;
-  width: 33.33%;
-  margin-bottom: 16px;
-  padding: 20px;
-}
-
-/* ABOUT US */
+/* ------- ABOUT US. Adi -------- */
 
 .about1 {
   margin-top: 100px;
@@ -1327,9 +1452,6 @@ customized by Kornelia -- */
   grid-template-columns: 40% 60%;
 
 }
-
-
-
 
 
 .about1 img {
@@ -1458,6 +1580,56 @@ iframe {
   width: 100%;
 }
 
+
+
+
+/* ----- ACTIVITIES Claudia ------ */
+
+
+
+/* Cards - 'activities'. Claudia */
+
+.cards-activities, .cards-activities::before, .cards-activities::after {
+  box-sizing: border-box;
+  padding: 2%;
+  margin-left: 5%;
+  bottom: 5%;
+  margin-bottom: 3%;
+}
+
+
+
+.act-left img {
+  min-height: 200px;
+  max-height: 290px;
+  position: absolute;
+  left: 5%;
+  padding: 0px;
+  margin-bottom: 0;
+  margin-top: -12px;
+}
+
+
+.act-right img {
+  min-height: 200px;
+  max-height: 290px;
+  position: absolute;
+  right: 5%;
+  padding: 0px;
+  margin-bottom: 0;
+  margin-top: -12px;
+}
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 16px;
+  padding: 20px;
+}
+
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-height: 100%;
@@ -1527,178 +1699,7 @@ padding-bottom: 20px;
 }
 
 
-
-
-
-
-.button {
-  outline: 0;
-  display: inline-block;
-  padding: 15px;
-  color: white;
-  background-color: #f15a29;
-  border-style: none;
-  border-radius: 10px;
-  text-align: center;
-  width: 180px;
-
-}
-
-.button:hover {
-  background-color: #e0005b;
-}
-
-
-
-/*
-animation for buttons. CSShake Library.
-! * * * * * * * * * * * * * * * * * * * *\
-  CSShake :: shake-slow
-  v1.5.0
-  CSS classes to move your DOM
-  (c) 2015 @elrumordelaluz
-  http://elrumordelaluz.github.io/csshake/
-  Licensed under MIT
-\* * * * * * * * * * * * * * * * * * * * */
-
-.shake-slow {
-
-  transform-origin: center center; }
-
-.shake-freeze,
-.shake-constant.shake-constant--hover:hover,
-.shake-trigger:hover .shake-constant.shake-constant--hover {
-  animation-play-state: paused; }
-
-.shake-freeze:hover,
-.shake-trigger:hover .shake-freeze, .shake-slow:hover,
-.shake-trigger:hover .shake-slow {
-  animation-play-state: running; }
-
-@keyframes shake-slow {
-  2% {
-    transform: translate(2px, 1px) rotate(-0.5deg); }
-  4% {
-    transform: translate(-5px, -9px) rotate(-2.5deg); }
-  6% {
-    transform: translate(5px, 3px) rotate(2.5deg); }
-  8% {
-    transform: translate(5px, 4px) rotate(1.5deg); }
-  10% {
-    transform: translate(-4px, -8px) rotate(-0.5deg); }
-  12% {
-    transform: translate(-2px, -9px) rotate(1.5deg); }
-  14% {
-    transform: translate(0px, 6px) rotate(3.5deg); }
-  16% {
-    transform: translate(8px, 2px) rotate(2.5deg); }
-  18% {
-    transform: translate(-4px, -1px) rotate(1.5deg); }
-  20% {
-    transform: translate(10px, 2px) rotate(-2.5deg); }
-  22% {
-    transform: translate(-2px, -4px) rotate(1.5deg); }
-  24% {
-    transform: translate(-8px, 5px) rotate(-0.5deg); }
-  26% {
-    transform: translate(-3px, -5px) rotate(3.5deg); }
-  28% {
-    transform: translate(6px, 2px) rotate(2.5deg); }
-  30% {
-    transform: translate(-5px, -2px) rotate(2.5deg); }
-  32% {
-    transform: translate(5px, -6px) rotate(-2.5deg); }
-  34% {
-    transform: translate(5px, -7px) rotate(-1.5deg); }
-  36% {
-    transform: translate(3px, -9px) rotate(0.5deg); }
-  38% {
-    transform: translate(6px, -2px) rotate(-0.5deg); }
-  40% {
-    transform: translate(-4px, -2px) rotate(0.5deg); }
-  42% {
-    transform: translate(7px, -8px) rotate(1.5deg); }
-  44% {
-    transform: translate(-4px, 10px) rotate(-1.5deg); }
-  46% {
-    transform: translate(-3px, 8px) rotate(-1.5deg); }
-  48% {
-    transform: translate(3px, 6px) rotate(-0.5deg); }
-  50% {
-    transform: translate(4px, -1px) rotate(-2.5deg); }
-  52% {
-    transform: translate(1px, 5px) rotate(-0.5deg); }
-  54% {
-    transform: translate(-3px, 7px) rotate(-2.5deg); }
-  56% {
-    transform: translate(3px, 3px) rotate(-2.5deg); }
-  58% {
-    transform: translate(-8px, -5px) rotate(-1.5deg); }
-  60% {
-    transform: translate(1px, -9px) rotate(3.5deg); }
-  62% {
-    transform: translate(0px, -3px) rotate(-0.5deg); }
-  64% {
-    transform: translate(4px, 2px) rotate(2.5deg); }
-  66% {
-    transform: translate(4px, 10px) rotate(1.5deg); }
-  68% {
-    transform: translate(1px, 2px) rotate(-2.5deg); }
-  70% {
-    transform: translate(-9px, 10px) rotate(0.5deg); }
-  72% {
-    transform: translate(-5px, -8px) rotate(0.5deg); }
-  74% {
-    transform: translate(-3px, -8px) rotate(3.5deg); }
-  76% {
-    transform: translate(-1px, 8px) rotate(3.5deg); }
-  78% {
-    transform: translate(-5px, -4px) rotate(0.5deg); }
-  80% {
-    transform: translate(-6px, 1px) rotate(1.5deg); }
-  82% {
-    transform: translate(-5px, -7px) rotate(1.5deg); }
-  84% {
-    transform: translate(1px, -6px) rotate(-0.5deg); }
-  86% {
-    transform: translate(-8px, -4px) rotate(3.5deg); }
-  88% {
-    transform: translate(-6px, 7px) rotate(-1.5deg); }
-  90% {
-    transform: translate(9px, 6px) rotate(-2.5deg); }
-  92% {
-    transform: translate(9px, -8px) rotate(3.5deg); }
-  94% {
-    transform: translate(3px, 3px) rotate(2.5deg); }
-  96% {
-    transform: translate(-6px, -7px) rotate(2.5deg); }
-  98% {
-    transform: translate(5px, -2px) rotate(-0.5deg); }
-  0%, 100% {
-    transform: translate(0, 0) rotate(0); } }
-
-.shake-slow:hover,
-.shake-trigger:hover .shake-slow, .shake-slow.shake-freeze, .shake-slow.shake-constant {
-  animation-name: shake-slow;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Activities page - divs and animations. Claudia */
 
 
 .act-text {
@@ -1744,6 +1745,9 @@ background-color: white;
 }
 
 
+
+/* TABLET VERSION All members*/
+
 @media only screen and (max-width: 1500px) {
 
 .header {
@@ -1760,6 +1764,8 @@ body {
   align-items: center;
 }
 }
+
+
 
 
 @media only screen and (max-width: 950px) {
@@ -1802,15 +1808,14 @@ body {
 
 
 
-
-
-
 .offer {
   margin-bottom: 20px;
 }
 
 }
 
+
+/* MOBILE VERSION All members*/
 
 @media screen and (max-width: 700px) {
 
@@ -1835,12 +1840,10 @@ body {
     padding: 5%;
     margin-left: 0;
   }
-
   .act-text1, .act-text2, .act-text3{
       margin-left: 5%;
       margin-right: 0;
     }
-
     .act-left img, .act-right img{
       width: 30%;
       padding-left: 5%;
@@ -1851,15 +1854,10 @@ body {
     }
 
 
-
-
-
-
     .column img{
       padding-top: 5%;
       margin:0;
     }
-
 
 
   .navigationmobile {
@@ -1877,7 +1875,6 @@ body {
   top: 2px;
   left: 2px;
   }
-
 
 
 .imglogomobile {
