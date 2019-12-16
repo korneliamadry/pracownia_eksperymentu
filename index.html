@@ -89,9 +89,10 @@ Read more about <a href="#about" onclick="showPage('about')"> <span class="under
 
 <div class="offer">
 
-  <a href="#school"><img src="img/group4.png" class="imgoffer"></a>
-  <a href="#birthday"><img src="img/group6.png" class="imgoffer"></a>
-  <a href="#summer"><img src="img/group5.png" class="imgoffer"></a>
+  <a href="#school"  onclick="showPage('activities')"><img src="img/group4.png" class="imgoffer"></a>
+    <a href="#summer"  onclick="showPage('activities')"><img src="img/group5.png" class="imgoffer"></a>
+  <a href="#birthday"  onclick="showPage('activities')"><img src="img/group6.png" class="imgoffer"></a>
+
 
 <br><br>
 
@@ -99,7 +100,10 @@ Read more about <a href="#about" onclick="showPage('about')"> <span class="under
 
 
 
-<button class="button"> <p> Sign up </p></button> <button class="button"> <p> Work with us </p> </button>
+
+<a href="#sign-up"  onclick="showPage('about')"><button class="button"><p> SIGN UP </p> </button> </a>
+<a href="#work-with"  onclick="showPage('about')"><button class="button"><p> WORK WITH US</p> </button> </a>
+
 
 
 </div>
@@ -210,7 +214,7 @@ customized by us -->
         <div class="about1">
 
           <div class="rect"></div>
-          <img src="img/image1.jpg" alt="first picture">
+          <img src="img/image1.png" alt="first picture">
 
           <div class="bgrect">
 
@@ -234,12 +238,12 @@ Our lecturers skillfully inspire to ask questions, search for answers, hypothese
 
         <div class="about2">
             <div class="rect2"></div>
-            <img src="img/image2.jpg" alt="first picture">
+            <img src="img/image2.png" alt="first picture">
 
             <div class="bgrect2">
 
               <h3>
-              Our Vision
+              Our Method
              </h3>
              <p>
 
@@ -259,12 +263,12 @@ Our lecturers skillfully inspire to ask questions, search for answers, hypothese
 
         <div class="about3">
             <div class="rect3"></div>
-            <img src="img/image3.jpg" alt="first picture">
+            <img src="img/image3.png" alt="first picture">
 
             <div class="bgrect3">
 
               <h3>
-              Our Vision
+              Our Approach
              </h3>
              <p>
                We attach great importance to safety.
@@ -288,13 +292,13 @@ Our lecturers skillfully inspire to ask questions, search for answers, hypothese
           <div>
             <h3>Work with us</h3>
             <h4> Person to leading classes </h4>
-<p>
-  We are looking for people to conduct classes
-  explaining phenomena in the field of physics,
-  chemistry and biology based on experiments based
-  on ready-made scenarios.
-</p>
-  <p><button class="button">READ MORE</button></p>
+            <p>
+              We are looking for people to conduct classes
+              explaining phenomena in the field of physics,
+            chemistry and biology based on experiments based
+            on ready-made scenarios.
+          </p>
+          <p><button class="button">READ MORE</button></p>
           </div>
 
           <div>
@@ -303,7 +307,7 @@ Our lecturers skillfully inspire to ask questions, search for answers, hypothese
             <p>
               We are looking for people who write
               interactive scenarios for children aged 5-10.
-            From the candidates we expect interest in chemistry / physics / technology / biology,
+              From the candidates we expect interest in chemistry / physics / technology / biology,
             </p>
               <p><button class="button">READ MORE</button></p>
           </div>
@@ -336,10 +340,13 @@ Our lecturers skillfully inspire to ask questions, search for answers, hypothese
       <section id="activities" class="page">
         <div class="mainpage" class="topbar">
           <div class="header">
-          <div class="logo">
-        <a href="#activities" onclick="showPage('activities')">
-          <img src="img/logo.png" class="imglogo2">
-      </a>  </div>
+            <div class="logo">
+              <a href="#home" onclick="showPage('home')">
+                <img src="img/logo.png" class="imglogo2">
+            </a>  
+      </div>
+      
+      
 
 
 
@@ -451,31 +458,31 @@ Our lecturers skillfully inspire to ask questions, search for answers, hypothese
 
 
 <div class="act-text">
-  <div class="act-left">
+  <div class="act-left" id="school">
     <img src="img/act3.png" alt="Chemestry">
     <img src="img/act4.png" alt="Languages">
     <img src="img/act10.png" alt="Biology">
 </div>
   <div class="act-text1" data-aos="fade-left">
-    <h3 id="school">School activities</h3>
+    <h3>School activities</h3>
     <p>We teach children aged 4-13 during their after school time at partnering schools (check locations) all around Warsaw, Poland. We are an indipendant company that uses school facilities to broaden the vision and knowledge of children with the so called “edutainment” method. By showing them how the theory transforms and is used in real-life practical situations - how is soap made; how to grow plants; how do chemicals react to each other; how to apply maths in everyday life and many, many more!</p>
   </div>
-  <div class="act-right">
+  <div class="act-right" id="summer">
   <img src="img/act1.png" alt="Park">
   <img src="img/act6.png" alt="Games">
   <img src="img/act9.png" alt="Plants">
 </div>
   <div class="act-text2" data-aos="fade-right">
-    <h3 id="summer">Summer breaks</h3>
+    <h3>Summer breaks</h3>
     <p>Summer breaks are something adults don’t have anymore, but children do and this is why we offer daycare during those sunny months when your child wants to play outside but you are too preoccupied with important files and deadlines at work. Let us take off some pressure from your shoulders and take your kid outside to experince nature in the best possible way - by planting trees, nurishing plants, taking care of different safe species or just play handball in the park. </p>
   </div>
-  <div class="act-left">
+  <div class="act-left" id="birthday">
   <img src="img/act2.png" alt="Love">
   <img src="img/act7.png" alt="Presents">
   <img src="img/act8.png" alt="Playing">
 </div>
   <div class="act-text3" data-aos="fade-left">
-    <h3 id="birthday">Birthday parties</h3>
+    <h3>Birthday parties</h3>
     <p>We believe a person should be always surrounded by people on his special day and birthdays are something children are esprecially excited about all-year-round, which is why we pepare numerous surprises to make the day unforgettable for said birthday child. Our goal is to make them happy and appreciated in every way possible and we stand strongly behind that!
     We have 3 topics to choose from: "exciting chemical experiments", "detectives on the trail" or "cosmetics factory".
 classes last 60-75 minutes and their cost is about 300-500PLN. Contact us for more details!</p>
