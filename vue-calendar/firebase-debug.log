@@ -1,0 +1,27 @@
+[debug] [2019-12-09T12:38:20.293Z] ----------------------------------------------------------------------
+[debug] [2019-12-09T12:38:20.295Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Adi_G\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js debug
+[debug] [2019-12-09T12:38:20.295Z] CLI Version:   7.9.0
+[debug] [2019-12-09T12:38:20.295Z] Platform:      win32
+[debug] [2019-12-09T12:38:20.295Z] Node Version:  v12.13.0
+[debug] [2019-12-09T12:38:20.296Z] Time:          Mon Dec 09 2019 13:38:20 GMT+0100 (Central European Standard Time)
+[debug] [2019-12-09T12:38:20.296Z] ----------------------------------------------------------------------
+[debug] [2019-12-09T12:38:20.296Z] 
+[error] Error: [object Object] is not a Firebase command
+[debug] [2019-12-09T12:38:20.330Z] TypeError: str.toLowerCase is not a function
+    at didYouMean (C:\Users\Adi_G\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\didyoumean\didYouMean-1.2.1.js:147:48)
+    at suggestCommands (C:\Users\Adi_G\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js:28:22)
+    at Command.<anonymous> (C:\Users\Adi_G\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js:57:14)
+    at Command.listener (C:\Users\Adi_G\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\commander\index.js:360:8)
+    at Command.emit (events.js:210:5)
+    at Command.EventEmitter.emit (domain.js:476:20)
+    at Command.parseArgs (C:\Users\Adi_G\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\commander\index.js:801:12)
+    at Command.parse (C:\Users\Adi_G\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\commander\index.js:563:21)
+    at Object.<anonymous> (C:\Users\Adi_G\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js:98:22)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)
+    at internal/main/run_main_module.js:17:11
+[error] 
+[error] Error: An unexpected error has occurred.

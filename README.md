@@ -1,2 +1,0 @@
-# frontendproject
-Pracownia Eksperymentu
