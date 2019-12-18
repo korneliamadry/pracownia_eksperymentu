@@ -230,7 +230,7 @@ export default {
     
     async logOut () {
       await firebase.auth().signOut();
-      window.location.href ='http://www.george-adrian.dk/pracownia_eksperymentu';
+      window.location.href ='http://www.george-adrian.dk/pracownia_eksperymentu/index.html';
     },
  
     setDialogDate( { date }) {
